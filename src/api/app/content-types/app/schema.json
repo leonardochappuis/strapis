@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apps",
+  "info": {
+    "singularName": "app",
+    "pluralName": "apps",
+    "displayName": "App"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Marketing",
+        "Analytics",
+        "Affiliates & Referrals",
+        "User Authentication",
+        "Content Management",
+        "Password Vault",
+        "Feature Flaggin & A/B Testing",
+        "Uptime Checker",
+        "Customer Service",
+        "Apps"
+      ]
+    }
+  }
+}
