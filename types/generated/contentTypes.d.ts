@@ -368,6 +368,7 @@ export interface ApiAppApp extends Schema.CollectionType {
     singularName: 'app';
     pluralName: 'apps';
     displayName: 'App';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -386,6 +387,7 @@ export interface ApiAppApp extends Schema.CollectionType {
         'Feature Flaggin & A/B Testing',
         'Uptime Checker',
         'Customer Service',
+        'Dashboard Builder',
         'Apps'
       ]
     >;
