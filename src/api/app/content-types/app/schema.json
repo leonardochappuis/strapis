@@ -41,6 +41,12 @@
         "Dashboard Builder",
         "Apps"
       ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "app": {
+      "type": "string"
     }
   }
 }

@@ -391,6 +391,8 @@ export interface ApiAppApp extends Schema.CollectionType {
         'Apps'
       ]
     >;
+    url: Attribute.String;
+    app: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
