@@ -390,7 +390,9 @@ export interface ApiAppApp extends Schema.CollectionType {
         'Dashboard Builder',
         'Apps',
         'Documentation',
-        'Payment Providers'
+        'Payment Providers',
+        'Infrastructure',
+        'Repositories'
       ]
     >;
     url: Attribute.String;
