@@ -384,11 +384,13 @@ export interface ApiAppApp extends Schema.CollectionType {
         'User Authentication',
         'Content Management',
         'Password Vault',
-        'Feature Flaggin & A/B Testing',
+        'Feature Flagging & A/B Testing',
         'Uptime Checker',
         'Customer Service',
         'Dashboard Builder',
-        'Apps'
+        'Apps',
+        'Documentation',
+        'Payment Providers'
       ]
     >;
     url: Attribute.String;
