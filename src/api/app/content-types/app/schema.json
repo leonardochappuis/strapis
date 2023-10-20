@@ -51,6 +51,9 @@
     },
     "app": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
